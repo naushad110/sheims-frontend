@@ -1,0 +1,48 @@
+<html>
+   <head>
+      <title>VueJs Instance</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+   </head>
+   <body>
+      <div class="container" id = "vue_det">
+         <h1>Firstname : {{firstname}}</h1>
+         <h1>Lastname : {{lastname}}</h1>
+         <div v-html="htmlcontent"></div>
+         <h2>v-for on a < template ></h2>
+        <template v-for="(value, key) in object">
+            <strong>
+                {{ key }}- {{ value }}
+            </strong>
+            <br />
+        </template>
+        <br><br>
+        <template>
+        <h3>Employee Listing</h3>
+        <table class="table table-bordered">
+            <tr>
+                <td>
+                    ID
+                </td>
+                <td>
+                    Name
+                </td>
+                <td>
+                    Email
+                </td>
+            </tr>
+            <tr v-for="emp in myEmp">
+                <td>{{emp.ID}}</td>
+                <td> {{emp.Name}}</td>
+                <td> {{emp.Email}}</td>
+            </tr>
+        </table>
+        </template>
+      </div>
+      <script type = "text/javascript" src = "js/vue_instance.js"></script>
+   </body>
+</html>
