@@ -20,7 +20,29 @@ var  vm = new Vue({
 				ID: '102',
 				Name: 'Khan',
             Email: 'khan@gmail.com'
-			}
+			},
+         {
+            ID:'103',
+            Name:'Alizay',
+            Email:"a@gmail.com"
+         }
+		],
+      salaryItems : [
+			{
+				ID: '101',
+				Name: 'Basic Pay Scale'
+            
+			},
+			{
+				ID: '102',
+				Name: 'Allownces'
+            
+			},
+         {
+            ID:'103',
+            Name:'Decttions'
+            
+         }
 		],
     },
     methods: {

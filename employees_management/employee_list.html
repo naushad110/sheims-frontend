@@ -23,7 +23,7 @@
         <br><br>
         <template>
         <h3>Employee Listing</h3>
-        <table class="table table-bordered">
+        <table class="table table-bordered table-striped">
             <tr>
                 <td>
                     ID
@@ -42,6 +42,25 @@
             </tr>
         </table>
         </template>
+        <template>
+            <h3>Salary Item Listing</h3>
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <td>
+                        ID
+                    </td>
+                    <td>
+                        Name
+                    </td>
+                    
+                </tr>
+                <tr v-for="item in salaryItems">
+                    <td>{{item.ID}}</td>
+                    <td> {{item.Name}}</td>
+                   
+                </tr>
+            </table>
+            </template>
       </div>
       <script type = "text/javascript" src = "js/vue_instance.js"></script>
    </body>
