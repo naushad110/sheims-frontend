@@ -1,0 +1,87 @@
+/* dashboard */
+.logo{
+    padding:3px;
+}
+.program{
+
+    border: 2px solid black;
+    width: 20%;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    margin: 7px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.program:hover{
+    background-color: white(253, 253, 253, 0.5);
+}
+.button {
+    margin-top: 4px;
+    border-radius: 2px;
+    border: 2px solid navy;
+padding: 2px;
+background-color: #000080;
+color: white;
+
+}
+.button:hover{
+    background-color: rgb(243, 202, 18);
+    
+}
+.button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.title{
+    text-align: center;
+    color: navy;
+}
+/* undergraduate */
+.underdraguate{
+   margin-left: 23%;
+   margin-top: 7%;
+}
+#tableU{
+    margin-top: 5px;
+}
+/* adp */
+.adp{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tableadp{
+     margin-top: 5px;
+ }
+ /* bs 5th semster  */
+ .bs{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tableBS{
+     margin-top: 5px;
+ }
+ /* diploma */
+ .diploma{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tableD{
+     margin-top: 5px;
+ }
+ /* ms */
+ .MS{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tableMS{
+     margin-top: 5px;
+ }
+ /* phd */
+ .phd{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tablephd{
+     margin-top: 5px;
+ }
