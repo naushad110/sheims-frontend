@@ -1,0 +1,78 @@
+/* body{
+    background-image: url(/barbaadi.jpeg);
+    background-repeat: no-repeat;
+background-size: cover;
+} */
+.container{
+    display:flex ;
+    padding: 20px;
+    margin: 10%;
+}
+.buttons{
+    display:flex ;
+    padding: 20px;
+    align-items: center;
+    width: 100vw;
+}
+.title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 20px;
+   
+}
+.title img{
+    width: 100px;
+}
+.FACULTY{
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    border: 2px solid rgb(255, 196, 0);
+    margin: 3px;
+    padding: 25px;
+    cursor: pointer;
+    margin-left: 34%;
+    margin-right: 4px;
+
+}
+.FACULTY:hover{
+    background-color: rgb(255, 196, 0, 0.5);
+}
+.FACULTY a{
+color: white;
+text-decoration: none;
+
+}
+/* dashboard MANAGEMENT */
+.MANAGEMENT
+{
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    border: 2px solid rgb(255, 196, 0, 0.5);
+    margin: 3px;
+    padding: 25px;
+    cursor: pointer;
+}
+.MANAGEMENT:hover{
+    background-color: rgb(255, 196, 0, 0.5);
+}
+.MANAGEMENT a{
+    color: white;
+    text-decoration: none;
+}  
+/* FACULTY   */
+.f{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tableF{
+     margin-top: 5px;
+ }
+ /* MANAGEMENT */
+ .m{
+    margin-left: 23%;
+    margin-top: 7%;
+ }
+ #tableM{
+     margin-top: 5px;
+ }
