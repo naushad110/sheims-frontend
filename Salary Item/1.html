@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <title>Salary Management</title>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <link rel="stylesheet" href="index.css" />
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+        rel="stylesheet" />
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+      <div class="container" id="vue_det">
+        <h3 >Salary Mangement System</h3>
+ 
+          <h3 >Employee Listing</h3>
+
+          <table class="table border   ">
+            <thead class=" border ">
+              <td>ID</td>
+              <td >Name</td>
+              <td>Medical Allownce</td>
+              <td>House Rent</td>
+              <td>Charges</td>
+              
+            </thead>
+            <tr v-for="emp in myEmp">
+              <td>{{emp.ID}}</td>
+              <td>{{emp.Name}}</td>
+              
+           
+             <td>{{emp.Charg}}</td>
+              <td>{{emp.Rent}}</td>
+            <td>{{emp.Allownce}}</td>
+             
+           
+            </tr>
+          </table>
+        </template>
+      </div>
+      <script type="text/javascript" src="1.js"></script>
+    </body>
+  </html>
+</html>
