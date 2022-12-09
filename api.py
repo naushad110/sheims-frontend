@@ -36,7 +36,7 @@ class Teacher(Resource):
 mysql = MySQL(app)
 api = Api(app)
 
-#http://127.0.0.1:5000/teachers
+#http://127.0.0.1:5000/get-teachers
 api.add_resource(Teacher, '/get-teachers', endpoint='get')
 api.add_resource(Teacher, '/post-teacher', endpoint='post')
 
