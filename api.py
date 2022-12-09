@@ -3,7 +3,7 @@
 #https://flask-restful.readthedocs.io/en/latest/
 #pip install flask-restful
 from flask import Flask, render_template, jsonify, request
-import json 
+import json
 from flask_mysqldb import MySQL
 from flask_restful import Resource, Api
 
@@ -37,7 +37,7 @@ mysql = MySQL(app)
 api = Api(app)
 
 #http://127.0.0.1:5000/teachers
-api.add_resource(Teacher, '/teachers', endpoint='get')
+api.add_resource(Teacher, '/get-teachers', endpoint='get')
 api.add_resource(Teacher, '/post-teacher', endpoint='post')
 
 if __name__ == "__main__":
