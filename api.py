@@ -28,7 +28,7 @@ class Teacher(Resource):
         cur = mysql.connection.cursor()
         cur.execute("INSERT INTO teachers (teacher_name, qualifications) VALUES (%s, %s)", (teacher_name, qualifications))
         mysql.connection.commit()
-        response = jsonify(message='User added successfully.', id=cur.lastrowid)
+        response = jsonify(message='Teacher added successfully.', id=cur.lastrowid)
         #response.data = cursor.lastrowid
         response.status_code = 200
         return(response)
