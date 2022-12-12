@@ -54,10 +54,12 @@ class Management(Resource):
 mysql = MySQL(app)
 api = Api(app)
 
-#http://127.0.0.1:5000/get-teachers
+#http://127.0.0.1:5000/get-faculty
+#http://127.0.0.1:5000/post-faculty
 api.add_resource(Faculty, '/get-faculty', endpoint='get')
 api.add_resource(Faculty, '/post-faculty', endpoint='post')
-#http://127.0.0.1:5000/get-teachers
+#http://127.0.0.1:5000/get-management
+#http://127.0.0.1:5000/post-management
 api.add_resource(Management, '/get-management', endpoint='getnew')
 api.add_resource(Management, '/post-management', endpoint='postnew')
 
